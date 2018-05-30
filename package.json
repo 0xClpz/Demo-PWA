@@ -1,0 +1,17 @@
+{
+  "name": "cache-network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:client": "live-server",
+    "start:server": "node server.js",
+    "start": "npm-run-all -p start:*"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "live-server": "^1.2.0",
+    "npm-run-all": "^4.1.2"
+  }
+}

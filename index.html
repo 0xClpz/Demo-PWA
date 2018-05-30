@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#fc4b38">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <title>PWA Demo!</title>
+</head>
+
+<body>
+  <div class="header">
+    <span>The weather App</span>
+  </div>
+  <div id="mount-point" class="card">
+    No wheather data yet
+  </div>
+  <script>
+    navigator.serviceWorker.register('/service-worker.js')
+  </script>
+  <script src="main.js">
+  </script>
+</body>
+
+</html>
